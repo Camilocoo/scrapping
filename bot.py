@@ -36,6 +36,7 @@ async def on_message(message):
 
     if message.content.startswith(f'$hello'):
         await message.channel.send(f'''{hello_message}''')
+
     
     
 
